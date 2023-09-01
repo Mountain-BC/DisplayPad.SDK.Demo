@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayPad.SDK.Demo", "DisplayPad.SDK.Demo.csproj", "{083BAFA3-C467-4411-800B-A060E22F4E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083BAFA3-C467-4411-800B-A060E22F4E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083BAFA3-C467-4411-800B-A060E22F4E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083BAFA3-C467-4411-800B-A060E22F4E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083BAFA3-C467-4411-800B-A060E22F4E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCC89FB3-0311-4E1D-B2DC-64ADCC2408AF}
+	EndGlobalSection
+EndGlobal

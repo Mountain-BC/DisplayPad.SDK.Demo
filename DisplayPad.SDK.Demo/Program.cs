@@ -1,22 +1,5 @@
-# DisplayPad-SDK-Demo
-DisplayPad-SDK-Demo shows how to connect with Mountain DisplayPad using DisplayPad SDK. DisplayPad-SDK-Demo lets you to get started quickly for connecting to Mountain DiaplyPad.
+﻿// See https://aka.ms/new-console-template for more information
 
-# Features
-- Code Written in c#
-- Property Inspector contains all required boilerplate code to let you instantly work on your code
-
-# Supported Platforms
-Our SDK targets .NET 6+ and .NET Framework 4.7.2+ on Windows
-
-# Usage
-To activate and communicate with the DisplayPad SDK Set the Target OS as Windows and Target OS version as 7.0. Now include the DisplayPad SDK NuGet package in your .NET Core app.
-
-```PM> Install-Package DisplayPad.SDK```
-
-# Start Coding
-You can get started after setting up the Nuget package as below:
-
-```
 using DisplayPad.SDK;
 
 //initialize the call back methods
@@ -47,4 +30,3 @@ void DisplayPadHelper_DisplayPadProgressCallBack(int Percentage)
 {
     Console.WriteLine("Device firmware update Progress status: " + Percentage);
 }
-```
