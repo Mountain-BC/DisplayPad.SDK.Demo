@@ -35,7 +35,7 @@ void DisplayPadHelper_DisplayPadPlugCallBack(int Status, int DeviceId)
 {
     Console.WriteLine("Device status: " + Status + " for Device Id: " + DeviceId);
 
-    bool PlugSatus = helper.DisplayPadIsDevicePlug(DeviceId.ToString());
+    bool PlugSatus = helper.DisplayPadIsDevicePlug(DeviceId);
 }
 
 void DisplayPadHelper_DisplayPadKeyCallBack(int KeyMatrix, int iPressed, int DeviceID)
