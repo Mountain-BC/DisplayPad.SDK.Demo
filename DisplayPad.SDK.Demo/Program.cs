@@ -16,14 +16,14 @@ DisplayPadHelper.DisplayPadProgressCallBack += DisplayPadHelper_DisplayPadProgre
 
 void DisplayPadHelper_DisplayPadPlugCallBack(int Status, int DeviceId)
 {
-    Console.WriteLine("Device status: " + Status + " for Device Id: " + DeviceId);
+    Console.WriteLine("Device status: " + Status + " for Device Id: " + DeviceId.ToString());
 
-    bool PlugSatus = helper.DisplayPadIsDevicePlug(DeviceId.ToString());
+    bool PlugSatus = helper.DisplayPadIsDevicePlug(DeviceId);
 }
 
 void DisplayPadHelper_DisplayPadKeyCallBack(int KeyMatrix, int iPressed, int DeviceID)
 {
-    Console.WriteLine("Key status: " + iPressed + " for Device Id: " + DeviceID);
+    Console.WriteLine("Key status: " + iPressed + " for Device Id: " + DeviceID.ToString());
 }
 
 void DisplayPadHelper_DisplayPadProgressCallBack(int Percentage)
