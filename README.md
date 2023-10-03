@@ -1,5 +1,5 @@
 # DisplayPad-SDK-Demo
-DisplayPad-SDK-Demo shows how to connect with Mountain DisplayPad using DisplayPad SDK. DisplayPad-SDK-Demo lets you to get started quickly for connecting to Mountain DiaplyPad.
+DisplayPad-SDK-Demo shows how to connect to the Mountain DisplayPad using the DisplayPad SDK. DisplayPad-SDK-Demo lets you get started quickly with connecting to the Mountain DisplayPad.
 
 # Features
 - Code Written in c#
