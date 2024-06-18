@@ -23,7 +23,7 @@ void DisplayPadHelper_DisplayPadPlugCallBack(int Status, int DeviceId)
 
 void DisplayPadHelper_DisplayPadKeyCallBack(int KeyMatrix, int iPressed, int DeviceID)
 {
-    Console.WriteLine("Key status: " + iPressed + " for Device Id: " + DeviceID.ToString());
+    Console.WriteLine("Key press status: " + iPressed + " for Device Id: " + DeviceID.ToString());
 }
 
 void DisplayPadHelper_DisplayPadProgressCallBack(int Percentage)
